@@ -1,0 +1,10 @@
+[package]
+name = "rust-genetic"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+lib-genetic-algorithm = { path = "./libs/genetic-algorithm" }
+lib-neural-network = { path = "./libs/neural-network" }
+lib-simulation = { path = "./libs/simulation" }
+lib-simulation-wasm = { path = "./libs/simulation-wasm" }
